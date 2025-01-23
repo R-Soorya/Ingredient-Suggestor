@@ -2,7 +2,7 @@ import google.generativeai as genai
 from . import prompt
 import json
 
-genai.configure(api_key="AIzaSyDB9Xerpu6YhwejJsUVmZsUVmLV1RB8lsk")
+genai.configure(api_key="Your API Key")
 
 model = genai.GenerativeModel("gemini-1.5-flash")
 
